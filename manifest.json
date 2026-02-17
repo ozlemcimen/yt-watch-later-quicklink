@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Watch Later Quick Link",
+    "version": "1.0",
+    "description": "Adds a quick access 'Watch Later' button to the YouTube mini sidebar.",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_title": "YouTube Watch Later Quick Link",
+        "default_popup": "",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
