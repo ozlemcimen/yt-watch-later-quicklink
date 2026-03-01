@@ -12,7 +12,7 @@ function init() {
             justify-content: center !important;
             cursor: pointer !important;
             text-decoration: none !important;
-            color: var(--yt-spec-text-secondary, #606060) !important;
+            color: #0f0f0f !important;
             padding: 16px 0 !important;
             width: 100% !important;
         }
@@ -21,7 +21,7 @@ function init() {
             border-radius: 10px !important;
         }
         html[dark] #yt-watch-later-quicklink-custom {
-             color: var(--yt-spec-text-secondary, #aaaaaa) !important;
+             color: var(--yt-spec-text-primary, #f1f1f1) !important;
         }
         html[dark] #yt-watch-later-quicklink-custom:hover {
             background-color: rgba(255, 255, 255, 0.1) !important;
