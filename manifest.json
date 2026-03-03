@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "YouTube Watch Later Quick Link",
     "version": "1.0",
-    "description": "Adds a quick access 'Watch Later' button to the YouTube mini sidebar.",
+    "description": "Adds quick access 'Watch Later' and 'History' buttons to the YouTube mini sidebar.",
     "icons": {
         "16": "icon.png",
         "48": "icon.png",
